@@ -63,3 +63,29 @@ Hasil dari program tersebut seperti berikut :<br>
 ![Gambar Latihan 1](foto/5.png)<br>
 2. Saya ingin menampilkan 8 baris bilangan dengan nilai 0 sampai 0.5<br>
 ![Soal 8 Biangan](foto/8.png)<br>
+
+## LATIHAN 2
+<hr>
+
+Saya akan melakukan pengerjaan selanjut nya yaitu latihan 2 dengan syntax seperti ini.
+```` python
+# Praktikum 3 - Latihan 2 - Pertemuan 7
+
+print("Tugas Pertemuan 7 - Praktikum 3 - Latihan 2")
+
+xangka=0
+while True:
+    xbilangan = int(input("Masukkan Bilangan : "))
+    if (xangka < xbilangan):
+        xangka=xbilangan
+    if (xbilangan == 0):
+        break
+
+print("Bilangan terbesar adalah: ",xangka)
+print()
+````
+<br>
+
+Untuk mengerjakan soal diatas maka kita perlu memasukan atau menginput datanya terlebih dahulu atau setelah itu bisa dilihat data yang akan dijalankan dengan syntax diatas.
+Dan untuk melihat hasil menjalankan syntx diatas dan kita bisa menginput nilai seperti berikut.<br>
+![Menampilkan hasil syntak diatas](foto/pp.png)<br>
